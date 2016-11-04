@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.websystique.springmvc</groupId>
-	<artifactId>Spring4MVCAngularJSExample</artifactId>
+	<groupId>ch.eigenverbrauchsmanager</groupId>
+	<artifactId>Eigenverbrauchsmanager</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0</version>
-	<name>Spring4MVCAngularJSExample Maven Webapp</name>
+	<name>evm WebApp</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -54,11 +54,11 @@
 				<version>2.4</version>
 				<configuration>
 					<warSourceDirectory>src/main/webapp</warSourceDirectory>
-					<warName>Spring4MVCAngularJSExample</warName>
+					<warName>eigenverbrauchsmanager</warName>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>Spring4MVCAngularJSExample</finalName>
+		<finalName>eigenverbrauchsmanager</finalName>
 	</build>
 </project>
