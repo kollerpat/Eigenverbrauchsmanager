@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.websystique.springmvc.model.User;
 
+//test
 @Service("userService")
 public class UserServiceImpl implements UserService{
 	
