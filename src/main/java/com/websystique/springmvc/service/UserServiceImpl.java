@@ -1,4 +1,4 @@
-package ch.eigenverbrauchsmanager.service;
+package com.websystique.springmvc.service;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -7,9 +7,9 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import org.springframework.stereotype.Service;
 
-import ch.eigenverbrauchsmanager.model.User;
+import com.websystique.springmvc.model.User;
 
-
+//test
 @Service("userService")
 public class UserServiceImpl implements UserService{
 	

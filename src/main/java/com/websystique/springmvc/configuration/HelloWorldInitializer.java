@@ -1,4 +1,4 @@
-package ch.eigenverbrauchsmanager.configuration;
+package com.websystique.springmvc.configuration;
 
 import javax.servlet.Filter;
 

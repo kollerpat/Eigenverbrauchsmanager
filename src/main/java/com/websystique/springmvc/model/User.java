@@ -1,4 +1,4 @@
-package ch.eigenverbrauchsmanager.model;
+package com.websystique.springmvc.model;
 
 public class User {
 

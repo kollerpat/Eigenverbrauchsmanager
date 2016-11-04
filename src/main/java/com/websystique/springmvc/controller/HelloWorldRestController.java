@@ -1,4 +1,4 @@
-package ch.eigenverbrauchsmanager.controller;
+package com.websystique.springmvc.controller;
  
 import java.util.List;
 
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import ch.eigenverbrauchsmanager.model.User;
-import ch.eigenverbrauchsmanager.service.UserService;
+import com.websystique.springmvc.model.User;
+import com.websystique.springmvc.service.UserService;
  
 @RestController
 public class HelloWorldRestController {
