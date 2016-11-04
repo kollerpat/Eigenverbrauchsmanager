@@ -1,8 +1,8 @@
-package com.websystique.springmvc.service;
+package ch.eigenverbrauchsmanager.service;
 
 import java.util.List;
 
-import com.websystique.springmvc.model.User;
+import ch.eigenverbrauchsmanager.model.User;
 
 
 public interface UserService {
